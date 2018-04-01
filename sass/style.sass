@@ -44,7 +44,7 @@ p
 a
     color: $links
     text-decoration: none
-    border-bottom: 2px solid $links
+    // border-bottom: 2px solid $links
     +ease(0.5s)
     &:hover
         color: $links-hover
@@ -63,14 +63,19 @@ button
 hr
     +skinny-hr
     opacity: 0.3
+    width: 100%;
 
 .wrap
     margin: 0 auto
     margin-top: 6rem
-    width: 45%
+    width: 95%;
+    max-width: 40rem;
     @media screen and (max-width: 736px)
         margin: 1rem
-        width: auto
+        width: 90%
+
+    & > * 
+        width: 100%;
 
 .tag
     width: 100%
@@ -112,6 +117,7 @@ hr
         border-bottom: none
 
 @import "elements"
+@import "highlight"
 
 // Helpers
 
