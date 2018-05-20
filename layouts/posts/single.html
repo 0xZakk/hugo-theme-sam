@@ -2,7 +2,7 @@
 
 <body>
   <div class="wrap">
-    <div class="section" id="title">{{ .Title }}</div>
+    <h1 class="section" id="title">{{ .Title }}</h1>
     <div class="section" id="content">
       {{ .Date.Format (.Site.Params.dateForm | default "Mon Jan 02, 2006") }} &#183;
       {{ .WordCount }} words {{ with .Params.tags }}
