@@ -1,0 +1,19 @@
+{
+  "name": "sam",
+  "version": "1.0.0",
+  "description": "![Main page screenshot](https://github.com/hivickylai/hugo-theme-sam/blob/master/images/screenshot.png)",
+  "main": "gulpfile.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "gulp": "^3.9.1",
+    "gulp-autoprefixer": "^5.0.0",
+    "gulp-sass": "^3.2.1",
+    "gulp-util": "^3.0.8",
+    "nord": "^0.2.1"
+  }
+}
